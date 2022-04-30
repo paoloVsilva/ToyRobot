@@ -68,7 +68,7 @@ void placeCommand(string input){
 /* execute move command, move the robot forward     */
 /* ------------------------------------------------ */
 void moveCommand(){
-  unsigned char coordinate = _currentDirection ^ 0x01;
+  unsigned char coordinate = (_currentDirection & 0x01) ^ 0x01;
   unsigned char operation = _currentDirection & 0x02;
 
 
