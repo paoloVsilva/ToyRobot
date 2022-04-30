@@ -39,8 +39,12 @@ by using the <PLACE {X},{Y},{DIRECTION}> command
 ## RULES
  - Robot cannot go outside the 5x5 board
 
+## Usage
+ - Run the "build/main" for Linux(This was tested in Ubuntu 18.04 LTS distro)
+ - Run the "build/main.exe" for Windows(This was tested in Windows 10)
+
 ## Future Improvements
  - Add a turn around command.
  - Make the code into more object oriented approach.
  - Include unit and integration pipelines and testing
- - Build in Mac OS
+ - Build in Mac OS, and other Linux Distro
